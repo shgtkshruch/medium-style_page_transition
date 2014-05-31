@@ -1,0 +1,3 @@
+[submodule "gulp"]
+	path = gulp
+	url = git@github.com:shgtkshruch/gulp.git

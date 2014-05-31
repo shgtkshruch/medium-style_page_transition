@@ -1,0 +1,25 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset='UTF-8')
+    title MEDIUM-STYLE PAGE TRANSITION
+    link(rel="stylesheet" href="./style.css")
+  body
+    article.page.hidden
+      .big-image
+        .inner
+          .fader
+            .text
+              a.goto-next Read Next
+              h1.title
+              h2.description
+      .content
+        h3.byline
+          |Published <time></time> by 
+          span.author
+        h1.title
+        h2.description
+        .text
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
+    script(src="./script.js")
+
